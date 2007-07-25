@@ -16,7 +16,7 @@ Conflicts: xorg-x11-xfs <= 6.9.0
 PreReq: mkfontdir
 
 %description
-Xorg X11 font encodings
+This package contains the encodings that map to specific characters.
 
 %prep
 %setup -q -n encodings-%{version}
@@ -25,7 +25,7 @@ Xorg X11 font encodings
 %configure2_5x	\
    --x-includes=%{_includedir} \
    --x-libraries=%{_libdir} \
-   --with-encodingsdir=%_datadir/fonts/encodings
+   --with-encodingsdir=%{_datadir}/fonts/encodings
 
 %make
 
@@ -46,5 +46,3 @@ mkfontdir -n -e /usr/share/fonts/encodings /usr/share/fonts/encodings
 %defattr(-,root,root)
 %dir %{_datadir}/fonts/encodings
 %{_datadir}/fonts/encodings/*
-
-
