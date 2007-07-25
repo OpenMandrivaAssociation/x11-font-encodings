@@ -1,6 +1,6 @@
 Name: x11-font-encodings
-Version: 1.0.0
-Release: %mkrel 6
+Version: 1.0.2
+Release: %mkrel 1
 Summary: Xorg X11 font encodings
 Group: Development/X11
 URL: http://xorg.freedesktop.org
