@@ -13,7 +13,7 @@ BuildRequires: x11-font-util >= 1.0.0
 BuildRequires: x11-util-macros >= 1.0.1
 
 Conflicts: xorg-x11-xfs <= 6.9.0
-PreReq: mkfontdir
+Requires(pre): mkfontdir
 
 %description
 This package contains the encodings that map to specific characters.
