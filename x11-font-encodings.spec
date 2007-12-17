@@ -6,7 +6,6 @@ Group: Development/X11
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/font/encodings-%{version}.tar.bz2
 License: MIT
-BuildRoot: %{_tmppath}/%{name}-root
 BuildArch: noarch
 
 BuildRequires: x11-font-util >= 1.0.0
