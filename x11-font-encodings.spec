@@ -1,6 +1,6 @@
 Name: x11-font-encodings
 Version: 1.0.2
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Xorg X11 font encodings
 Group: Development/X11
 URL: http://xorg.freedesktop.org
@@ -8,8 +8,8 @@ Source: http://xorg.freedesktop.org/releases/individual/font/encodings-%{version
 License: MIT
 BuildArch: noarch
 
-BuildRequires: x11-font-util >= 1.0.0
-BuildRequires: x11-util-macros >= 1.0.1
+BuildRequires: x11-font-util	>= 1.0.1
+BuildRequires: x11-util-macros	>= 1.1.5
 
 Conflicts: xorg-x11-xfs <= 6.9.0
 Requires(pre): mkfontdir
