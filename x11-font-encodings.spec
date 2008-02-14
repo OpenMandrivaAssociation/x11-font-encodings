@@ -3,6 +3,7 @@ Version: 1.0.2
 Release: %mkrel 2
 Summary: Xorg X11 font encodings
 Group: Development/X11
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/font/encodings-%{version}.tar.bz2
 License: MIT
