@@ -1,6 +1,6 @@
 Name: x11-font-encodings
-Version: 1.0.2
-Release: %mkrel 4
+Version: 1.0.3
+Release: %mkrel 1
 Summary: Xorg X11 font encodings
 Group: Development/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -22,10 +22,10 @@ This package contains the encodings that map to specific characters.
 %setup -q -n encodings-%{version}
 
 %build
-%configure2_5x	\
-   --x-includes=%{_includedir} \
-   --x-libraries=%{_libdir} \
-   --with-encodingsdir=%{_datadir}/fonts/encodings
+./configure --prefix=/usr \
+            --x-includes=%{_includedir} \
+            --x-libraries=%{_libdir} \
+	    --with-encodingsdir=%{_datadir}/fonts/encodings
 
 %make
 
