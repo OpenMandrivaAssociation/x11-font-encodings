@@ -1,5 +1,5 @@
 Name: x11-font-encodings
-Version: 1.0.3
+Version: 1.0.4
 Release: %mkrel 1
 Summary: Xorg X11 font encodings
 Group: Development/X11
