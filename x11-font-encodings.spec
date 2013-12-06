@@ -1,6 +1,6 @@
 Name: x11-font-encodings
 Version: 1.0.4
-Release: 6
+Release: 7
 Summary: Xorg X11 font encodings
 Group: Development/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
