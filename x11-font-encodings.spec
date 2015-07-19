@@ -1,6 +1,6 @@
 Name: x11-font-encodings
 Version: 1.0.4
-Release: 10
+Release: 11
 Summary: Xorg X11 font encodings
 Group: Development/X11
 URL: http://xorg.freedesktop.org
