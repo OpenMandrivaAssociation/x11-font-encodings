@@ -1,6 +1,6 @@
 Name: x11-font-encodings
-Version: 1.0.4
-Release: 12
+Version: 1.0.5
+Release: 1
 Summary: Xorg X11 font encodings
 Group: Development/X11
 URL: http://xorg.freedesktop.org
@@ -18,14 +18,14 @@ Requires(post,postun): mkfontdir
 This package contains the encodings that map to specific characters.
 
 %prep
-%setup -q -n encodings-%{version}
+%autosetup -n encodings-%{version} -p1
 
 %build
 %configure --with-encodingsdir=%{_datadir}/fonts/encodings
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %post
 mkfontdir -n -e /usr/share/fonts/encodings /usr/share/fonts/encodings
