@@ -1,10 +1,10 @@
 Name: x11-font-encodings
-Version: 1.0.7
-Release: 2
+Version: 1.1.0
+Release: 1
 Summary: Xorg X11 font encodings
 Group: Development/X11
-URL: http://xorg.freedesktop.org
-Source0: http://xorg.freedesktop.org/releases/individual/font/encodings-%{version}.tar.xz
+URL: https://xorg.freedesktop.org
+Source0: https://xorg.freedesktop.org/releases/individual/font/encodings-%{version}.tar.xz
 License: Public Domain
 BuildArch: noarch
 BuildRequires: pkgconfig(fontutil) >= 1.0.1
